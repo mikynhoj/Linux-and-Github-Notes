@@ -1,0 +1,42 @@
+- Git is a tool that allows developers to track versions of their code over time
+- It does this by creating "snapshots" of the current state of the code base whenever you tell it to
+- Git is essential when collaborating with other developers to ensure that previous "snapshots" of the code can be revisited if necessary
+- This is helpful when revisiting breaking changes or undoing changes
+- VCS - version control system - git is hugely popular thought it's not the only one
+- GitHub (social network for coding) is different from Git (your own machine)
+- Git does not automatically track newly made files
+
+"git init" - initializes git in a folder
+"git status" - shows current git status of the folder
+"git add [name of file]" - adds file to git mode - git add . adds all untracked changes
+"git commit - m" - summary of this commit - gives message each time
+"git commit - m "create [filename]" - summary of changes, insertions, and deletions
+"git log" - shows the last editor
+"git config --global user.name "[insert name]"
+"git config --global user.email "[id or email]" - need name and id/email to do commits
+"git diff" - shows the difference between previous and commit shows changes in red and adds in green
+"git branch" - shows all branches
+"git branch <message for new branch> - new branch is made
+"git checkout master" - switch branch to master
+"git log --oneline" - short log
+"git checkout <filename>" - goes into the existing filename branch
+"git checkout -b NAMEOFBRANCH" - create new branch 
+after merging branch with master, branch is usually deleted
+"git branch -d NAMEOFBRANCH" - deletes branch
+"git branch -D NAMEOFBRANCH" - deletes branch without warning, -d will warn that branch is not fully merged
+"git merge <branch>" - merges branch to current branch 
+
+
+git sttaus --> what files have been added/modified
+git diff - among those files, what has been changed
+git add <Name_of_file> --> puts into staging area
+git commit -m --> commit the file with a message
+git log - see a log of all your commits
+
+master branch is always made
+fast forward merge 
+recursive merge
+
+merge conflicts - once it is resolved, do the below:
+git add .
+git commit -m "fixing merge conflict"

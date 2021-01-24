@@ -1,0 +1,11 @@
+git hub - helps share git repositories with other people. Helps collaborate via GitHub
+git hub pages - deploys pages statically - no backend no python or server - gives link through the settings.
+
+
+"git remote add origin <github website url>" - origin can be replaced with anything but first add is usually called origin
+"git remote -v" - shows you anything fetched and pushed
+"git push -u origin master" - the -u is used for the first time it is pushed so it will be quicker to push 
+"git push origin master" - master can be replaced with other branches
+"git push" - updates on github 
+"git clone <url>" - copy url clone on someone's github - gets the git content from someone else and puts it on your machine. 
+"git pull origin master" - get any changes made so we can edit and then pushing it back to github - gets you in sync with current up to date code

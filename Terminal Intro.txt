@@ -1,0 +1,42 @@
+shell - program that processes commands and returns output
+bash - automatic default shell for mac
+terminal - wrapper program that runs the shell
+root directory - top most machine hierarchy - usually not touched
+Inside root directory - there is the user folder that has all accounts
+absolute path - entire path starting from the root directory
+relative path - path starting from where I am currently
+
+"cd" - (Change Directory) type in actual folder/app name after cd to go into the directory
+"cd ~/Git/Folder/shit" - can replace home directory with tilda
+"clear" - clears terminal commands
+"cd ~" - home directory 
+"ls" - (List)current view
+"cd /" - root directory
+"pwd" - (Print Working Directories) display absolute path/location of what current directory you are working in
+"cd .." - one folder behind - previous folder
+"^C" - control C quits the process
+"man" - lists all help - putting command name after man shows exactly what the command name does
+"mkdir" - makes new folder name is after the command - can make multiple foldernames separated by spaces
+"touch" - creates a file - can make multilple files separated by spaces. Can use relative path to make it (touch Folder/filename.js)
+"cat" - lets you view the text in the file (prints everything in text here on what the file has)
+"echo" - repeats whatever is typed (next word needs to be typed in double quotes - no special characters - used with redirect ">")
+    echo "Put text here" > filename.txt - this will COMPLETELY replace text in file
+"rm" - removes files - can do multiple files. It does not go to a trash bin. It completely removes it from the desktop
+"rmdir" - removes directory ^^ "" (only empty directories) empty folders only
+"rm -rf" - removes folder even if it has files - forever.
+"open" - opens files or directory/folder - "open" for mac and "start" for windows
+"." current
+".." previous
+"mv" - moving files and folders (mv file.txt ../) ../ - previous. Can also rename (mv file.txt newfile.txt) - if no location is detected then it will rename the file. (mv file.txt ../newfile.txt) - can rename and move at the same time.
+"cp" - copy files and folders (cp text.txt test_copy.txt) creates new copies and also sends to new location (cp text.txt test_copy.txt newLocation). cp -r filename folder (for directory)
+control a - goes to the beginning
+control e - goes to the end
+control w - deletes the word to where your cursor is
+control u - delete an entire line
+alt left/right - jump betweeen words
+
+
+ls flag:
+"ls -a" - lists all - even hidden files
+"ls -1l" - prints everything including time and file
+"ls -al" - includes hidden files - can combine lists
